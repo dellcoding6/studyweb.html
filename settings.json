@@ -1,0 +1,17 @@
+{
+    "launch": {
+        "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+        ]
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "security.workspace.trust.untrustedFiles": "open"
+}
